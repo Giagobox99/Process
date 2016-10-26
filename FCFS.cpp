@@ -18,7 +18,7 @@ int main()
 		{
 			waitingTime[i]=waitingTime[i-1]+burstTime[i-1];
 		}
-		tournaroundTime[i]=	waitingTime[i]+burstTime[i];
+		tournaroundTime[i]=waitingTime[i]+burstTime[i];
 	
 	}
 	for(i=0;i<processCount;i++)
