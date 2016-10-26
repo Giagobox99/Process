@@ -9,7 +9,7 @@ int main()
 	
 	int burstTime[processCount], waitingTime[processCount], tournaroundTime[processCount];
 	
-	for(i=0;i<processCount;i++)
+	for (i=0; i<processCount; i++)
 	{
 		std::cout<<"Insert the ("<<i+1<<") input of BurstTime"<<std::endl;
 		std::cin>>burstTime[i];
@@ -21,7 +21,7 @@ int main()
 		tournaroundTime[i]=waitingTime[i]+burstTime[i];
 	
 	}
-	for(i=0;i<processCount;i++)
+	for (i=0; i<processCount; i++)
 	{
 		std::cout<<"Il ("<<i+1<<") waitingTime vale ("<<waitingTime[i]<<")"<<std::endl;
 	}
